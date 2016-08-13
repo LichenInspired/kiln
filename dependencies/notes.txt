@@ -1,0 +1,11 @@
+user-interface
+    node.js
+    npm
+    chart.js
+
+server
+    monkey-server
+
+development-tools
+    git
+    browsersync

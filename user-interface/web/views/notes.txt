@@ -1,0 +1,2 @@
+Need to figure out the different views, and what distinct functions they provide
+    The structure of the web app should closely resemble the API

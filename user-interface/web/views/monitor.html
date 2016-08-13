@@ -1,0 +1,47 @@
+<!--
+** Monitor View **
+This view provides the option to monitor and control one or more kilns.
+It displays the following information:
+    - Current user (Select to access user profile)
+    - Menu button (Select to access Kiln menu)
+    - Menu
+    - Kiln selection button
+    - Kiln selection (Select kilns to be displayed)
+    - Add kiln button
+    - Current temperature
+    - Current rate
+    - Current datetime
+    - Elapsed fire time
+    - Remaining fire time
+    - Stop
+    - Hold
+    - Firing graph
+        - Schedule
+        - History
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Monitor</title>
+        <style>rel="stylesheet" href="../css/ui.css"</style>
+        <script src="//www.chartjs.org/assets/Chart.min.js"></script>
+    </head>
+    <body id="monitor">
+        <div id="user-profile">USER</div>
+        <button id="menu-button">MENU</button>
+        <nav id="menu"></nav>
+        <button id="kilns-button">KILNS</button>
+        <div id="kilns">KILNS</div>
+        <button id="stop">STOP</button>
+        <button id="hold">HOLD</button>
+        <div id="current-temp">CURRENT TEMP</div>
+        <div id="current-rate">CURRENT RATE</div>
+        <div id="elapsed-time">ELAPSED TIME</div>
+        <div id="remaining-time">REMAINING TIME</div>
+        <canvas id="graph" width="800" height="400"></canvas>
+        <script>
+        </script>
+    </body>
+</html>
